@@ -1,0 +1,6 @@
+mov rax,5
+cmp rax,rbx
+je end
+print rax
+end:
+print rbx

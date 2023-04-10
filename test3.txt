@@ -1,0 +1,4 @@
+mov [0x90], 45
+mov rbx,0x90
+mov rcx,[rbx]
+print rcx

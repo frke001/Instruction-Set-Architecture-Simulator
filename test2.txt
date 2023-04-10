@@ -1,0 +1,12 @@
+mov rcx,15
+mov rax,rcx
+mov rbx,3
+top:
+mov rbx,10
+sub rbx,6
+print rbx
+
+cmp rcx,rbx
+mov [0x29],6
+jge top
+

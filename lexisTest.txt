@@ -1,0 +1,5 @@
+mov rax,5
+mov rbx,3
+mov rcx,3
+add rax,rbx
+ad rax,rcx
